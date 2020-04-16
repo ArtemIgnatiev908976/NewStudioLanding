@@ -26244,3 +26244,23 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .bootstrap-tagsinput .badge:hover [data-role=remove] {
   opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  #headers-header-4 {
+    visibility: hidden;
+    display: none;
+  }
+}
