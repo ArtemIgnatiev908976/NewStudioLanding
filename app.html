@@ -1293,110 +1293,40 @@ window.onload = function () {
 
             </div>
         </div>
-
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal_success">
     </section>
 </div>
 
 
-<!--<section class=" slice slice-lg bg-primary overflow-hidden">-->
-<!--  &lt;!&ndash; SVG background &ndash;&gt;-->
 
 
-<!--  &lt;!&ndash; Container &ndash;&gt;-->
-<!--  <div class="container">-->
-
-<!--    <div class="mb-5 text-center ">-->
-
-<!--      <h1 class=" mt-4  text-white">Оставьте вашу заявку</h1>-->
-
-<!--    </div>-->
-<!--    <div class="row justify-content-center">-->
-<!--      <div class="col-lg-8">-->
 
 
-<!--        <form id="my-form2" action="https://formspree.io/xwknadnz" method="POST">-->
-<!--          <div class="row">-->
-<!--            <div class="col-md-6">-->
-<!--              <div class="form-group">-->
-<!--                <label class="form-control-label  text-white">Имя</label>-->
-<!--                <input type="text" name="name" class="form-control" placeholder="Имя">-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6">-->
-<!--              <div class="form-group">-->
-<!--                <label class="form-control-label  text-white">Фамилия</label>-->
-<!--                <input type="text" name="name" class="form-control" placeholder="Фамилия">-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="row align-items-center">-->
-<!--            <div class="col-md-6">-->
-<!--              <div class="form-group">-->
-<!--                <label class="form-control-label  text-white">Email</label>-->
-<!--                <input class="form-control" type="email" name="email2" placeholder="email@example.com">-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6">-->
-<!--              <div class="form-group">-->
-<!--                <label class="form-control-label  text-white">Телефон</label>-->
-<!--                <input type="text" name="name" class="form-control" placeholder="+7 999 999 99 99">-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="row align-items-center">-->
-
-<!--          </div>-->
-<!--          <div class="row">-->
-<!--            <div class="col-md-12">-->
-<!--              <div class="form-group">-->
-<!--                <label class="form-control-label  text-white">Краткое описание сайта</label>-->
-<!--                <textarea type="text" name="message" class="form-control" data-toggle="autosize" placeholder="Например: сайт для фото студии" rows="3" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 98px;"></textarea>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="text-center mt-4 animated infinite pulse delay-2s">-->
-<!--            <button type="submit" id="my-form-button2" class="btn btn-warning rounded-pill text-dark">-->
-<!--              Оставить заявку-->
-<!--            </button>-->
-
-<!--            <span class="d-block mt-4 text-sm">Мы свяжемся с вами в течении 24х часов.</span>-->
-<!--          </div>-->
-
-
-<!--        </form></div>-->
-
-
-<div class="modal fade docs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+<!-- Modal -->
+<div class="modal modal-success fade" id="modal_success" tabindex="-1" role="dialog" aria-labelledby="modal_success" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
 
-            <div class="modal-header">
+            <div class="modal-body">
+                <div class="row justify-content-center">
 
+                    <div class="col-lg-11">
+                        <div class="mb-5 text-center ">
 
-                <div class="modal-body">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="exampleModalLabel">Оставьте заявку</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
+                            <h1 class=" mt-4  text-white">Оставьте вашу заявку</h1>
 
-                    <div class="row justify-content-center">
-
-                        <div class="col-lg-11">
-
-
+                        </div>
+                        <form id="my-form" action="https://formspree.io/xwknadnz" method="POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label class="form-control-label  text-black">Имя</label>
+                                        <label class="form-control-label   text-white">Имя</label>
                                         <input type="text" name="name" class="form-control" placeholder="Имя">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label class="form-control-label  text-black">Фамилия</label>
+                                        <label class="form-control-label   text-white">Фамилия</label>
                                         <input type="text" name="name" class="form-control" placeholder="Фамилия">
                                     </div>
                                 </div>
@@ -1404,24 +1334,31 @@ window.onload = function () {
                             <div class="row align-items-center">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label class="form-control-label  text-black">Email</label>
+                                        <label class="form-control-label   text-white">Email</label>
                                         <input class="form-control" type="email" name="email"
                                                placeholder="email@example.com">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label class="form-control-label  text-black">Телефон</label>
-                                        <input type="text" name="name" class="form-control"
-                                               placeholder="+7 999 999 99 99">
+                                        <label class="form-control-label  text-white">Телефон</label>
+                                        <input type="text" name="name" class="form-control" placeholder="+7 999 999 99 99">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="form-control-label  text-white">Краткое описание сайта</label>
+                                        <textarea class="form-control" placeholder="Например сайт для фото студии"
+                                                  rows="3"></textarea>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row align-items-center">
-
-                            </div>
-                            <div class="text-center mt-4 animated infinite pulse delay-2s">
-                                <button type="submit" id="my-form-button" class="btn btn-success rounded-pill">Оставить
+                            <div class="text-center mt-4 ">
+                                <button type="submit" id="my-form-button" class="btn btn-warning rounded-pill animated infinite pulse delay-2s">Оставить
                                     заявку
                                 </button>
 
@@ -1430,21 +1367,20 @@ window.onload = function () {
 
 
                             <!--                            <h1 id="typeanim2" class="text-white lh-150 mb-4">123</h1>-->
-
-                        </div>
-
-
+                        </form>
                     </div>
 
 
                 </div>
             </div>
+
         </div>
     </div>
-
-
 </div>
-<!--</section>-->
+
+
+
+
 
 
 <!-- Call to action (v3) -->
@@ -1531,6 +1467,64 @@ window.onload = function () {
         xhr.send(data);
     }
 </script>
+
+
+
+
+<script>
+
+    window.addEventListener("DOMContentLoaded", function () {
+
+        // get the form elements defined in your form HTML above
+
+        let form = document.getElementById("my-form");
+        let button = document.getElementById("my-form-button");
+        let status = document.getElementById("my-form-status");
+
+        // Success and Error functions for after the form is submitted
+
+        function success() {
+            form.reset();
+            button.style = "display: none ";
+            window.location.href = "blog.html"
+        }
+
+        function error() {
+            status.innerHTML = "Oops! There was a problem.";
+        }
+
+        // handle the form submission event
+
+        form.addEventListener("submit", function (ev) {
+            ev.preventDefault();
+            var data = new FormData(form);
+            ajax(form.method, form.action, data, success, error);
+        });
+    });
+
+    // helper function for sending an AJAX request
+
+    function ajax(method, url, data, success, error) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState !== XMLHttpRequest.DONE) return;
+            if (xhr.status === 200) {
+                success(xhr.response, xhr.responseType);
+            } else {
+                error(xhr.status, xhr.response, xhr.responseType);
+            }
+        };
+        xhr.send(data);
+    }
+</script>
+
+
+
+
+
+
 
 
 <script type="text/javascript">
