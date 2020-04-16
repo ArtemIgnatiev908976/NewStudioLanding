@@ -26254,13 +26254,3 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 
 
-
-
-
-
-@media screen and (max-width: 600px) {
-  #headers-header-4 {
-    visibility: hidden;
-    display: none;
-  }
-}
