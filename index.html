@@ -90,12 +90,12 @@ window.onload = function () {
                 <ul class="navbar-nav align-items-lg-center">
                     <!-- Home - Overview  -->
                     <li class="nav-item active">
-                        <a class="nav-link" href="#headers-header-9" data-scroll-to>Главная</a>
+                        <a class="nav-link" href="#headers-header-4" data-scroll-to>Главная</a>
                     </li>
 
                     <!-- Pages menu -->
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#What" data-scroll-to>Почему мы?</a>
+                    <li class="nav-item active" id="Whatlink">
+                        <a class="nav-link" href="#What"  data-scroll-to>Почему мы?</a>
                     </li>
 
                     <!-- Pages menu -->
@@ -107,12 +107,12 @@ window.onload = function () {
                         <a class="nav-link" href="#features-features-20" data-scroll-to>Прайс</a>
                     </li>
                     <!-- Sections menu -->
-                    <li class="nav-item active">
+                    <li class="nav-item active" id="projects-projects-1link">
                         <a class="nav-link" href="#projects-projects-1" data-scroll-to>Портфолио</a>
                     </li>
 
                     <!-- Sections menu -->
-                    <li class="nav-item active">
+                    <li class="nav-item active" id="testimonials-testimonials-1link">
                         <a class="nav-link" href="#testimonials-testimonials-1" data-scroll-to>Отзывы</a>
                     </li>
                 </ul>
@@ -1556,7 +1556,10 @@ window.onload = function () {
         $('#What').css('display', 'none');// или можно $('.navWrap').hide();
         $('#sct-call-to-action').css('display', 'none');// или можно $('.navWrap').hide();
         $('#testimonials-testimonials-1').css('display', 'none');// или можно $('.navWrap').hide();
+        $('#testimonials-testimonials-1link').css('display', 'none');// или можно $('.navWrap').hide();
         $('#projects-projects-1').css('display', 'none');// или можно $('.navWrap').hide();
+        $('#projects-projects-1link').css('display', 'none');// или можно $('.navWrap').hide();
+        $('#Whatlink').css('display', 'none');// или можно $('.navWrap').hide();
     }
 
 </script>
